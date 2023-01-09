@@ -33,5 +33,8 @@ function allProblemsChallenge(number1, number2) {
 const number1 = prompt("Enter a number:");
 const number2 = prompt("Enter another number:");
 
-window.alert(allProblemsChallenge(parseInt(number1), parseInt(number2)));
+alert(allProblemsChallenge(parseInt(number1), parseInt(number2)));
+
+alert(allProblems(parseInt(number1), parseInt(number2)));
+
 
